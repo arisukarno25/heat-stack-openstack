@@ -1,0 +1,15 @@
+parameters:
+ demo_net_name: heat-network-6
+ demo_net_cidr: 172.28.6.0/24
+ demo_net_gateway: 172.28.6.1
+ demo_net_pool_start: 172.28.6.10
+ demo_net_pool_end: 172.28.6.254
+ demo_subnet_name: heat-subnet-6
+ demo_ext_net_name: external-net-6
+ demo_router_name: heat-router-6
+ demo_sg_name: heat-sg-6
+ demo_key_name: heat-key-6
+ demo_public_key: <your ssh key>
+ demo_image_name: cirros-6
+ demo_flavor_name: heat-flavor-6
+ demo_server1_name: heat-instance-6
